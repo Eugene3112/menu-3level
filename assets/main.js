@@ -5,17 +5,6 @@ let secondLevelMenu = document.querySelectorAll('.second-level');
 let arrow = document.querySelectorAll('.arrow');
 let arrows = document.querySelectorAll('.fa-angle-up');
 
-
-
-// function openContent(a){
-//     a.nextElementSibling.classList.toggle('block-open');
-// }
-// function closeSecondMenu(){
-//     for(let i=0;i<secondLevelMenu.length;i++){
-//         secondLevelMenu[i].style.display=none;
-//     }
-// }
-
 function openContent(a){
     for(let i=0;i < secondLevelMenu.length; i++){
         secondLevelMenu[i].classList.remove("block-open");
